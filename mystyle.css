@@ -1,0 +1,45 @@
+:root {
+    --slate_grey: #77878B;
+    --dark_slate_grey: #386060;
+    --onyx: #373e40;
+    --teal: #488286;
+    --light_blue: #b7d5d4;
+    --black: #000000;
+  }
+  
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Raleway", sans-serif;
+    color: var(--black);
+}
+
+.main_color {
+    background-color: var(--dark_slate_grey);
+}
+
+.sidebar {
+    background-color: var(--slate_grey);
+    position: fixed!important;
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 250px; /* Set the width of the sidebar */
+    top: 0;
+    left: 0;
+    padding: 15px;
+    margin: 0px;
+}
+
+.sidebar_photo {
+    border-radius: 5px;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.sidebar_button {
+    color: var(--black);
+    width: 100%;
+    cursor: pointer;
+}
+
+.sidebar_button:hover {
+    background-color: var(--onyx);
+}
