@@ -5,41 +5,65 @@
     --teal: #488286;
     --light_blue: #b7d5d4;
     --black: #000000;
+    --white: #ffffff;
   }
   
 body,h1,h2,h3,h4,h5,h6 {
     font-family: "Raleway", sans-serif;
-    color: var(--black);
+    color: var(--white);
 }
 
-.main_color {
-    background-color: var(--dark_slate_grey);
+.main {
+    background-color: var(--onyx);
 }
 
 .sidebar {
-    background-color: var(--slate_grey);
+    background-color: var(--dark_slate_grey);
     position: fixed!important;
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 250px; /* Set the width of the sidebar */
+    width: 15%; /* Set the width of the sidebar */
     top: 0;
     left: 0;
     padding: 15px;
     margin: 0px;
 }
 
-.sidebar_photo {
+.sidebar .photo {
     border-radius: 5px;
     width: 80%;
     display: block;
     margin: auto;
 }
 
-.sidebar_button {
+.sidebar .button {
     color: var(--black);
     width: 100%;
     cursor: pointer;
 }
 
-.sidebar_button:hover {
+.sidebar .button:hover {
     background-color: var(--onyx);
+}
+
+.section {
+    float: left;
+    background-color: var(--black);
+    width: 100%;
+}
+
+.section .row {
+    display: flex;
+    width: 100%;
+}
+
+.section .row .content {
+    background-color: var(--black);
+    width:33.33333%;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.section .row .content .media{
+    width: 100%;
 }
