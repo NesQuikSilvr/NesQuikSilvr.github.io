@@ -5,10 +5,12 @@ body {
     color: #e0e0e0;
 }
 
+
+
 .navbar {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
     background-color: #1a1a1a;
@@ -18,20 +20,55 @@ body {
     top: 0;
 }
 
-.navbar.nameplate {
+.navbar .nameplate {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.navbar.nav-buttons {
+.navbar .nameplate h1 {
+    margin: 1rem 0 0 0;
+    letter-spacing: 0.25rem;
+    font-size: 2.5rem;
+}
+
+.navbar .nameplate h4 {
+    margin: 0.5rem 0 1rem 0;
+    font-weight: 200;
+}
+
+.navbar .links {
     display: flex;
     flex-direction: row;
 }
 
-.navbar a {
+.navbar .links a {
     color: #b3b3b3;
     text-decoration: none;
-    padding: 1.5rem;
+    margin: 0 1rem 0.5rem 1rem;
+}
+
+.navbar .links i {
+    font-size: larger;
+}
+
+.navbar .nav-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.navbar .nav-buttons > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b3b3b3;
+    text-decoration: none;
+
+    padding: 0.5rem 0 0 0;
+    width: 7rem;
+    height: 3rem;
 }
 
 .navbar a:hover {
@@ -39,11 +76,17 @@ body {
     transition: background-color 0.2s ease;
 }
 
+
+
 .container {
     margin-top: 1.5rem;
     display: flex;
     flex-direction: column;
-    padding: 2rem 0rem;
+    padding: 20vh 0;
+}
+
+.intro {
+    background-image: none;
 }
 
 .content {
