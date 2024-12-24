@@ -1,242 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Johnny Nguyen</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Johnny Nguyen</title>
 </head>
-<style>
-  body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
-</style>
-<body class="w3-light-grey w3-content" style="max-width:1600px">
-
-<!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
-  <div class="w3-container">
-    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
-      <i class="fa fa-remove"></i>
-    </a>
-    <img src="/assets/self1.jpg" style="width:80%; border-radius: 1000px;"><br><br>
-    <h4><b>Johnny Nguyen</b></h4>
-    <h5> UCSD Comp Sci '24 </h5>
-  </div>
-  <div class="w3-bar-block">
-    <!--a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a-->
-    <a href="#mentoring" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">
-      <i class="fa fa-duotone fa-chalkboard-user w3-margin-right"></i>
-      MENTORING
-    </a>
-    <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">
-      <i class="fa-solid fa-computer w3-margin-right"></i>
-      PROJECTS
-    </a>
-    <a href="#3dwork" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">
-      <i class="fa-solid fa-cube  w3-margin-right"></i>
-      3D WORK
-    </a>
-    <!--a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a-->
-    <!--a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a-->
-  </div>
-  <div class="w3-panel w3-large">
-    <a href="https://github.com/NesQuikSilvr"><i class="fa-brands fa-github w3-hover-opacity" style="font-size: 30px;"></i></a>
-    <a href="https://www.linkedin.com/in/jkn002/"><i class="fa-brands fa-linkedin w3-hover-opacity" style="font-size: 30px;"></i></a>
-  </div>
-</nav>
-
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
-
-<!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:300px">
-
-  <!-- Mentoring Section -->
-  <header id="mentoring">
-    <div class="w3-container">
-      <h1><b>Mentoring</b></h1>
-    </div>
-  </header>
-  
-  <!-- Mentoring Media -->
-  <div class="w3-row-padding">
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="/assets/oneoneopt.JPG" style="width:100%">
-      <div class="w3-container w3-white">
-        <p>
-          Explaining to a student how the robot can use sensors to follow a black tape line and reliably traverse a marked path.
-        </p>
+<body>
+    <div class="navbar">
+      <div class="nameplate">
+        <h1>Johnny Nguyen</h1>
+          <a href="https://github.com/NesQuikSilvr"><i class="fa-brands fa-github w3-hover-opacity" style="font-size: 30px;"></i></a>
+          <a href="https://www.linkedin.com/in/jkn002/"><i class="fa-brands fa-linkedin w3-hover-opacity" style="font-size: 30px;"></i></a>
       </div>
-    </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="/assets/twotwoopt.JPG" style="width:100%">
-      <div class="w3-container w3-white">
-        <p>
-          Discussing a game plan with a pair of students after going over competition tasks.
-        </p>
-      </div>
-    </div>
-    <div class="w3-third w3-container">
-      <img src="/assets/classopt.JPG" style="width:100%">
-      <div class="w3-container w3-white">
-        <p>
-          Introducing students to writing basic procedural programs for a simulated robot.
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="w3-row-padding">
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="/assets/team.jpg" style="width:100%">
-      <div class="w3-container w3-white">
-        <p>
-          The total cohort of students I've worked with has numbered up to 40 kids spread across 4 different teams.
-        </p>
-        <p>
-          They recently performed excellently in the annual San Diego Botball tournament where they earned several awards including:
-        </p>
-        <ul>
-          <li>1st Place Overall</li>
-          <li>Outstanding Documentation</li>
-          <li>Judge's Choice in Engineering</li>
-          <li>Judge's Choice in Spirit</li>
-        </ul>
-      </div>
-    </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <iframe style="width:100%" height=225px src="https://www.youtube.com/embed/nfIIhXo2PwQ"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-      </iframe>
-      <div class="w3-container w3-white">
-        <p>
-          Botball San Diego 2023
-        </p>
-        <p>
-          Team 2 running their robot pair, one of which sorts objects based on color and another which grabs and
-          stacks foam cubes. This team won First Place Overall.
-        </p>
-      </div>
-    </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <iframe width=100% height=225px src="https://www.youtube.com/embed/EU3GZecaUCA"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-      </iframe>
-      <div class="w3-container w3-white">
-        <p>
-          Botball San Diego 2023
-        </p>
-        <p>
-          Team 3 running their robot pair. The highlight of this round is the success of the path-following robot in transporting a container
-          to a designated extraction point within a time limit.
-        </p>
+      <div class="nav-buttons">
+        <a href="#Overview" onclick="showContent('home')">Home</a>
+        <a href="#Mentoring" onclick="showContent('mentoring')">Mentoring</a>
       </div>
     </div>
 
-  <!-- Software Section -->
-  <header id="projects">
-    <div class="w3-container">
-      <h1><b>Projects</b></h1>
+    <div id="home-content" class="container">
+        <div class="content">
+            <h1>Overview</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula quam at libero aliquam, vel dictum risus gravida.</p>
+            <p>Explore the sidebar for navigation links.</p>
+        </div>
+        <div class="content">
+          <h1>Overview</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula quam at libero aliquam, vel dictum risus gravida.</p>
+          <p>Explore the sidebar for navigation links.</p>
+        </div>
+        <div class="content">
+            <h1>Overview</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula quam at libero aliquam, vel dictum risus gravida.</p>
+            <p>Explore the sidebar for navigation links.</p>
+        </div>
+        <div class="content">
+            <h1>Overview</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula quam at libero aliquam, vel dictum risus gravida.</p>
+            <p>Explore the sidebar for navigation links.</p>
+        </div>
+        <div class="content">
+            <h1>Overview</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula quam at libero aliquam, vel dictum risus gravida.</p>
+            <p>Explore the sidebar for navigation links.</p>
+        </div>
+        <div class="content">
+            <h1>Overview</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula quam at libero aliquam, vel dictum risus gravida.</p>
+            <p>Explore the sidebar for navigation links.</p>
+        </div>
     </div>
-  </header>
-  
-  <!-- Software List -->
-  <div class="w3-row-padding">
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="/assets/raytrace_head.png" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <a href="https://github.com/NesQuikSilvr/Torrey_Raytracer">
-          https://github.com/NesQuikSilvr/Torrey_Raytracer
-        </a>
-        <p>
-          Implemented functionality for whitted raytracer using acceleration structures,
-          UV texture mapping, Fresnel reflection, Blinn-Phong, Lambertian reflectance, etc.
-        </p>
-      </div>
-    </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="/assets/opengl_model_viewer.PNG" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <a href="https://github.com/NesQuikSilvr/ModelViewer">
-          https://github.com/NesQuikSilvr/ModelViewer
-        </a>
-        <p>
-          Wrote a model and animation viewer using OpenGL. Parses .skel, .skin, .anim files to display models
-          and has controls for moving bones and playing animations.
-        </p>
-      </div>
-    </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <a href="https://github.com/Triton-Talk/tritontalk">
-        <img src="/assets/TritonTalk_Title.png" style="width:100%" class="w3-hover-opacity">
-      </a>
-      <div class="w3-container w3-white">
-        <a href="https://github.com/Triton-Talk/tritontalk">
-          https://github.com/Triton-Talk/tritontalk
-        </a>
-        <p>
-          Worked in a team of 10 students to develop an interactive video chat application meant to simulate socializing
-          in person and interacting with school clubs on UCSD's Library Walk during the height of the COVID pandemic.
-        </p>
-      </div>
-    </div>
-  </div>
 
-  <!-- 3D Section -->
-  <header id="3dwork">
-    <div class="w3-container">
-      <h1><b>3D Work</b></h1>
-    </div>
-  </header>
-  
-  <!-- 3D List -->
-  <div class="w3-row-padding">
-    <div class="w3-third w3-container w3-margin-bottom">
-      <iframe width=100% height=225px src="https://www.youtube.com/embed/SGhs0_CSZyg"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-      </iframe>
-      <div class="w3-container w3-white">
-        <p>
-          VFX.
-        </p>
+    <div id="mentoring-content" class="container" style="display: none;">
+      <div class="content">
+          <h1>Mentoring</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula quam at libero aliquam, vel dictum risus gravida.</p>
+          <p>Explore the sidebar for navigation links.</p>
       </div>
     </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="/assets/Sculpts2.png" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p>
-          Character sculpting.
-        </p>
-      </div>
-    </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="/assets/Geni_Half.png" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p>
-          Character modeling.
-        </p>
-      </div>
-    </div>
-  </div>
 
-<!-- End page content -->
-</div>
 
-<script>
-// Script to open and close sidebar
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
-}
- 
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-    document.getElementById("myOverlay").style.display = "none";
-}
-</script>
-
+    <script src="script.js"></script>
 </body>
 </html>
