@@ -8,55 +8,49 @@ body {
 
 
 .navbar {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 100;
 
     background-color: #1a1a1a;
 
-    position: fixed;
-    width: 100%;
-    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 .navbar .nameplate {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.navbar .nameplate h1 {
-    margin: 1rem 0 0 0;
-    letter-spacing: 0.25rem;
-    font-size: 2.5rem;
-}
-
-.navbar .nameplate h4 {
-    margin: 0.5rem 0 1rem 0;
-    font-weight: 200;
+    margin: 1rem 1.5rem 0.5rem 1.5rem;
+    
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
 }
 
 .navbar .links {
+    margin: 0 2rem;
+
     display: flex;
     flex-direction: row;
 }
 
 .navbar .links a {
+    margin: 0 1rem 0.5rem 1rem;
+
     color: #b3b3b3;
     text-decoration: none;
-    margin: 0 1rem 0.5rem 1rem;
 }
 
 .navbar .links i {
-    font-size: larger;
+    font-size: x-large;
 }
 
 .navbar .nav-buttons {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin: 0rem 2rem;
 }
 
 .navbar .nav-buttons > a {
@@ -79,15 +73,47 @@ body {
 
 
 .container {
-    margin-top: 1.5rem;
+    margin: 1.5rem 8rem;
     display: flex;
     flex-direction: column;
-    padding: 20vh 0;
 }
 
 .intro {
-    background-image: none;
+    width: 100%;
 }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box {
+    background-color: #333333b1;
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.text-box h1 {
+    margin: 0 0 10px;
+    font-size: 2rem;
+}
+
+.text-box p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+
+
 
 .content {
     flex: 1;
