@@ -28,24 +28,6 @@ body {
     font-size: 2rem;
 }
 
-.navbar .links {
-    margin: 0 2rem;
-
-    display: flex;
-    flex-direction: row;
-}
-
-.navbar .links a {
-    margin: 0 1rem 0.5rem 1rem;
-
-    color: #b3b3b3;
-    text-decoration: none;
-}
-
-.navbar .links i {
-    font-size: x-large;
-}
-
 .navbar .nav-buttons {
     display: flex;
     flex-direction: row;
@@ -70,15 +52,35 @@ body {
     transition: background-color 0.2s ease;
 }
 
+.navbar .links {
+    margin: 0 2rem;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar .links a {
+    margin: 0 1rem 0.75rem 1rem;
+
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+.navbar .links i {
+    font-size: x-large;
+}
 
 
 .container {
-    margin: 1.5rem 8rem;
+    margin: 1.5rem 4rem;
     display: flex;
     flex-direction: column;
 }
 
 .intro {
+    display: flex;
+    flex-direction: column;
+    
     width: 100%;
 }
 
@@ -113,11 +115,34 @@ body {
 }
 
 
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 
+    margin: 1rem 0;
+}
 
 .content {
-    flex: 1;
     padding: 1rem 4rem;
+    display: flex;
+
+    margin: 4rem 0;
+}
+
+.content .visual {
+    width: 40%;
+    
+    padding: 0 1rem;
+}
+
+.content .spacer {
+    width: 4rem;
+}
+
+.content .description {
+
 }
 
 .content h1 {
